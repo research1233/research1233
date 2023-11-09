@@ -1,424 +1,674 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce website</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/0e53af926d.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!--header section-->
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+
+    <title>Shaik Arif - Research Scientist</title>
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            background-image: url('https://e0.pxfuel.com/wallpapers/183/829/desktop-wallpaper-black-and-blue-dark-blue-abstract-technology.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image file */
+            background-size: cover; /* This makes sure the image covers the entire background */
+            background-repeat: no-repeat; /* This prevents the image from repeating */
+            background-position: center; /* This centers the image */
+        }
+        #education {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+h1, h2 {
+            color: #fff;
+            font-size: l;
+        }
+        
+        section h2 {
+            color: #000;
+        }
+        #skills {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skills li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px; /* Added border-radius for curved edges */
+    margin: 5px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+
+#education h2 {
+    border-bottom: 2px solid #333;
+}
+
+#education p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#education p:last-child {
+    margin-bottom: 0;
+}
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px; /* Adjust the gap between links */
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        #innoverseConnect .offerings ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.project {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        .project p {
+            font-size: 1.1em;
+        }
+
+#innoverseConnect .offerings li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px; /* Added border-radius for curved edges */
+    margin: 5px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+        /* Additional styling for specific sections */
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            border-bottom: 2px solid #333;
+        }
+
+        section p {
+            font-size: 1.1em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        ul li:before {
+            content: "•";
+            color: #333;
+            font-size: 1.5em;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: relative;
+            top: 0.2em;
+        }
+        #innoverseconnect {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        #innoverseconnect h2 {
+            border-bottom: 2px solid #333;
+        }
+
+        #innoverseconnect p {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.0002em; /* Adjusted padding */
+            position: fixed;
+            bottom: 0.1px;
+            width: 100%;
+            height: 70px;
+        }
+
+        .portfolio-item,
+        .blog-post {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .portfolio-item h3,
+        .blog-post h3 {
+            margin-top: 0;
+        }
+        section {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-white-background-with-smooth-wavy-lines-your-project_476363-6220.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image file */
+    background-size: cover; /* This makes sure the image covers the entire background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; /* This centers the image */
+    color: #000; /* Set text color to ensure it's readable on the background */
+}
+nav, footer {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-geometric-background-with-connecting-points-lines-network-concept_634443-302.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image file */
+    background-size: cover; /* This makes sure the image covers the entire background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center; /* This centers the image */
+    color: #fff; /* Set text color to ensure it's readable on the background */
+}
+#conference-alerts {
+    padding-bottom: 100px; /* Adjust this value as needed */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+nav{
+    font-size: medium;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #f5f5f5;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#add-conference button {
+            margin-top: 10px; /* Add some space above the button */
+        }
+        #submittformm button {
+            margin-top: 10px; /* Add some space above the button */
+        }
+          /* Animation */
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .project {
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        /* Smooth Transitions */
+        .section {
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .section:hover {
+            background-color: #f9f9f9;
+            transform: scale(1.05);
+        }
+
+        /* Gradients */
+        header {
+            background-image:url('https://e0.pxfuel.com/wallpapers/918/831/desktop-wallpaper-blue-tech-dark-blue-technology.jpg');
+            color: #fff;
+        }
+
+        footer {
+            background-image:url('https://e0.pxfuel.com/wallpapers/918/831/desktop-wallpaper-blue-tech-dark-blue-technology.jpg');
+
+        }
+
+        /* Advanced Layout Techniques */
+        .section-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Pseudo-elements and Pseudo-classes */
+        .button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        .section::before {
+            content: "Section:";
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Box Shadow and Text Shadow */
+        .element {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        section h2, section h3 {
+    font-weight: bold;
+}
+#publication-list {
+    color: #fff;
+}
+table, th, td {
+    border: 1px solid #ccc;
+    color: black;
+    background-color: whitesmoke;
+}
+#publications .publication-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#publications .publication {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#publications .publication:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+#publications h3 {
+    margin-top: 0;
+}
+
+#publications p {
+    font-size: 1.1em;
+}
+#resume {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#resume h2 {
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+#resume p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border:aqua;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+button:hover {
+    background-color: #555;
+}
+.profile-image {
+        border-radius: 50%;
+        width: 150px; /* Adjust the width as needed */
+        height: 150px; /* Adjust the height as needed */
+        object-fit: cover;
+        margin: 20px auto; /* Adjust margin as needed */
+        display: block;
+    }
+
+
+
+        
+
+
+
+        
+    </style>
+</head>
+
+<body>
     <header>
-      <div id="header">
-        <div class="header-logo">
-          <a href="indext.html"><img src="images/logo.png" alt="" /></a>
-        </div>
-        <div class="header-list">
-          <nav class="header-list-nav">
-            <ul>
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="shop.html">Shop</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
-          <div class="header-list-icon">
-            <a href=""><i class="fa fa-bag-shopping"></i></a>
-          </div>
-        </div>
-      </div>
+        
+    
+        <h1><center><b>SHAIK ARIF</b></center></h1>
+        <h2><center><b>PASSIONATE RESEARCH SCIENTIST</b></center></h2>
+
     </header>
 
-    <!--main section-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#summary">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skils">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#conferences">Scopus Conferences</a></li>
+            <li><a href="#Professional Memberships">professional Memberships</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#resume">  Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
 
-    <main>
-      <section id="hero">
-        <h4>Trade-in-offer</h4>
-        <h2>Super value deals</h2>
-        <h1>On all products</h1>
-        <p>save more coupons & up to 70% off!</p>
-        <button>Shop now</button>
-      </section>
+        </ul>
+    </nav>
+    <section id="home">
+        <img src="data:image/jpeg;base64,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" alt="Profile Image" class="profile-image">
 
-      <section id="features" class="section-p1">
-        <div class="f-box">
-          <img src="images/features/f1.png" alt="free shipping" />
-          <h6>Free shipping</h6>
-        </div>
-        <div class="f-box">
-          <img src="images/features/f2.png" alt="online order" />
-          <h6>online order</h6>
-        </div>
-        <div class="f-box">
-          <img src="images/features/f3.png" alt="save money" />
-          <h6>save money</h6>
-        </div>
-        <div class="f-box">
-          <img src="images/features/f4.png" alt="promotions" />
-          <h6>promotions</h6>
-        </div>
-        <div class="f-box">
-          <img src="images/features/f5.png" alt="happy sell" />
-          <h6>happy sell</h6>
-        </div>
-        <div class="f-box">
-          <img src="images/features/f6.png" alt="24/7 support" />
-          <h6>24/7 support</h6>
-        </div>
-      </section>
-
-      <section class="product-section" class="section-p1">
-        <h1>Featured Products</h1>
-        <p>Summer Collection New Morden Design</p>
-        <div class="pro-collection">
-          <div class="product-cart">
-            <img src="images/products/f1.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f2.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f3.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f4.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f5.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f6.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f7.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/f8.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-        </div>
-      </section>
-
-      <section id="off-banner" class="section-m1">
-        <h4>Repaire Services</h4>
-        <h2>Up to 70% Off - All t-Shirts & Accessories</h2>
-        <button class="normal">Explore More</button>
-      </section>
-
-      <section class="product-section" class="section-p1">
-        <h1>New Arrivals</h1>
-        <p>Summer Collection New Morden Design</p>
-        <div class="pro-collection">
-          <div class="product-cart">
-            <img src="images/products/n1.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n2.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n3.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n4.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n5.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n6.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n7.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-          <div class="product-cart">
-            <img src="images/products/n8.jpg" alt="product image" />
-            <span>adidas</span>
-            <h4>Cartoon Astronaut T-Shirts</h4>
-            <div class="stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <h4 class="price">$78</h4>
-            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
-          </div>
-        </div>
-      </section>
-
-      <section id="banners" class="section-p1">
-        <div class="big-banners">
-          <div class="big-banners-1">
-            <h4>crazy deals</h4>
-            <h2>buy 1 get 1 free</h2>
-            <span>The best classic dress is on sale at coro</span>
-            <button class="banner-btn">Learn More</button>
-          </div>
-          <div class="big-banners-2">
-            <h4>spring/summer</h4>
-            <h2>upcomming season</h2>
-            <span>The best classic dress is on sale at cara</span>
-            <button class="banner-btn">Collection</button>
-          </div>
-        </div>
-        <div class="small-banners">
-          <div class="small-banners-1">
-            <h2>SEASONAL SALE</h2>
-            <h5>Winter Collection 50% Off</h5>
-          </div>
-          <div class="small-banners-2">
-            <h2>NEW FOOTWEAR COLLECTION</h2>
-            <h5>Spring/Summer 2022</h5>
-          </div>
-          <div class="small-banners-3">
-            <h2>T-SHIRTS</h2>
-            <h5>New Trendy Prints</h4>
-          </div>
-        </div>
-      </section>
-
-      <section id="newsletter">
-        <div class="newsletter-text">
-          <h3>Sign Up For Newsletters</h3>
-          <h5>get e-mail updates about out latest shop and <span>special offers</span></h5>
-        </div>
-        <div class="form">
-          <input type="email" placeholder="Your email address" id="email-address-input">
-          <button>Sign Up</button>
-        </div>
-      </section>
-
-    </main>
-
-    <!--footer section-->
-
-    <footer>
-      <div id="footer">
-        <div class="contact">
-          <a href="indext.html"><img src="images/logo.png" alt="" /></a>
-          <br> <br>
-          <br> 
-          <h3>Contact</h3>
-          <address>
-            <p><b>Address:</b> Wellington Road, Street 32. San Francisco</p>
-            <p><b>Phone:</b> Wellington Road, Street 32. San Francisco</p>
-            <p><b>Hours</b> 10:00 - 18:00. Mon - Sat</p>
-          </address>
-          <h3>Follow Us</h3>
-          <br> 
-          <div class="socials">
-            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-telegram"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </div>
-        </div>
-        <div class="about">
-          <h3>About</h3>
-          <br> 
-          <a href="#">About Us</a>
-          <a href="#">Delivery Information</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Contact Us</a>
-        </div>
-        <div class="myaccount ">
-          <h3>My account</h3>
-          <br> 
-          <a href="#">Sign In</a>
-          <a href="#">View Cart</a>
-          <a href="#">My Wishlist</a>
-          <a href="#">Track My Order</a>
-          <a href="#">Help</a>
-        </div>
-        <div class="install">
-          <h3>Install App</h3>
-          <br> 
-          <p>From App Store or Google Play</p>
-          <div class="download">
-            <a href="#"><img src="images/pay/app.jpg" alt=""></a>
-            <a href="#"><img src="images/pay/play.jpg" alt=""></a>
-          </div>
-          <p>Secured Payment Gateways</p>
-          <img src="images/pay/pay.png" alt="">
-        </div>
+        <h2>Welcome to My Website</h2>
+        <p>Hello, I'm Shaik Arif, a dedicated  Passionate Research Scientist with a deep passion for pushing the boundaries of knowledge and innovation. Armed with a Bachelor of Technology degree in Information Technology from PRASAD V POTLURI SIDDHARTHA INSTITUTE OF TECHNOLOGY, VIJAYAWADA, I am committed to leveraging cutting-edge technologies to solve complex problems and implement creative solutions.</p>
         
-      </div>
-    </footer>
+        <p>With a strong foundation in Data Analysis, Experimental Design, Statistical Analysis, and expertise in Machine Learning, Deep Learning, and Natural Language Processing (NLP), I am well-equipped to tackle a wide range of research challenges. My journey in the field of technology has been driven by an insatiable curiosity and an unyielding commitment to excellence.</p>
+    
+        <p>Throughout my academic journey, I have garnered certifications including 'Basics of Python Programming for Absolute Beginners' Bootcamp and AI BUILDER AND POWER APPS, attesting to my proficiency in programming and AI technologies. These skills have been applied in projects such as the "Predictive Modeling of Disease Outbreaks using Machine Learning," where I achieved an impressive 90% accuracy in early outbreak detection.</p>
+    
+        <p>I am an active member of the International Society for Professional Innovation Management (ISPIM) and the European Alliance for Innovation (EAI), where I collaborate with experts from diverse fields to drive innovation and impact in the professional landscape. I believe in a growth mindset and continually seek opportunities to learn, contribute, and partner with others who share my vision and values.</p>
+    
+        <p>Thank you for visiting my website. I invite you to explore further and discover more about my skills, projects, and contributions to the world of research and innovation.</p>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section id="summary">
+        <h2>ABOUT ME</h2>
+        <p>I am a student member at ISPIM and EAI, two leading professional associations for innovation management and technology, where I collaborate with experts from diverse fields and backgrounds to drive innovation and impact in the professional landscape. With my Bachelor of Technology degree in Information Technology from PRASAD V POTLURI SIDDHARTHA INSTITUTE OF TECHNOLOGY, VIJAYAWADA, I leverage my skills in computer science, programming languages, and leadership to solve complex problems and implement creative solutions.</p>
+        <p>I am passionate about staying at the forefront of emerging trends and technologies, especially in the areas of Python and AI, which I have demonstrated through multiple certifications and projects. For example, I completed the AI BUILDER AND POWER APPS course from Coursera and the 'Basics of Python Programming for Absolute Beginners' Bootcamp from Open Weaver, and I earned the Introduction to Programming Using Python badge from HackerRank.</p>
+        <p>I have a deep curiosity and a love for pushing boundaries, and I embrace change and a growth mindset. I continually seek opportunities to learn, contribute, and partner with others who share my vision and values. Let's connect and explore how we can innovate together.</p>
+    </section>
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <p>PRASAD V POTLURI SIDDHARTHA INSTITUTE OF TECHNOLOGY</p>
+        <p>Bachelor of Technology - BTech, Information Technology · (2021 - 2025)</p>
+
+        <p>Sri Chaitanya College of Education</p>
+        <p>INTERMEDIATE, MPC · (June 2019 - June 2021)</p>
+
+        <p>SRI CHAITANYA TECNO SCHOOL, VIJAYAWADA</p>
+        <p>· (December 2022)</p>
+    </section>
+    <section id="skills">
+        <h2>RESEARCH SKILLS</h2>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Experimental Design</li>
+            <li>Statistical Analysis</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Natural Language Processing (NLP)</li>
+            <li>Computer Vision</li>
+            <li>Research Methodology</li>
+            <li>Technical Writing</li>
+            <li>Research Ethics</li>
+            <li>Data Mining</li>
+            <li>Research Paper Writing and Publication</li>
+
+        </ul>
+        
+    </section>
+    <section id="certifications">
+        <h2>CERTIFICATIONS</h2>
+        <ul>
+            <li>'Basics of Python Programming for Absolute Beginners' Bootcamp</li>
+            <li>AI BUILDER AND POWER APPS</li>
+            <li>Problem solving</li>
+            <li>Introduction to Programming Using Python</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>PROJECTS</h2>
+    
+        <div class="project">
+            <h3>Predictive Modeling of Disease Outbreaks using Machine Learning</h3>
+            <p>Developed a predictive model to forecast disease outbreaks based on historical data, environmental factors, and population demographics. The model achieved a 90% accuracy in early detection of outbreaks.</p>
+        </div>
+    
+        <div class="portfolio-item">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+            <!-- Add more details about Project 2 as needed -->
+        </div>
+    
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="publications">
+        <h2>RESEARCH PUBLICATIONS</h2>
+        <div class="publication-list">
+            <div class="publication">
+                <h3>Exploring the Intersection of Psychology and Artificial Intelligence</h3>
+                <p>Journal Name: International Journal of Innovative Research in Technology</p>
+                <p>Date: 09-03-2023</p>
+                <p>Link: <a href="https://ijirt.org/Article?manuscript=158676">Publication Link</a></p>
+            </div>
+    
+            <div class="publication">
+                <h3>Leveraging the Potential: Artificial Intelligence Applications in Space Exploration</h3>
+                <p>Journal Name:International Journal of Innovative Research in Technology</p>
+                <p>Date: 23-10-2023</p>
+                <p>Link: <a href="https://ijirt.org/Article?manuscript=161698">Publication Link</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="conferences">
+        <h2>SCOPUS CONFERENCES ATTENDED</h2>
+        <div class="conference-list">
+            <div class="conference">
+                <h3>Unlocking the Potential: Applications of Artificial Intelligence in Healthcare</h3>
+                <p>Conference Name: International Conference on Artificial Intelligence in Healthcare</p>
+                <p>Date: 15-07-2023</p>
+                <p>Link: <a href="https://www.example.com/conference/ai-healthcare">Conference Link</a></p>
+            </div>
+    
+            <div class="conference">
+                <h3>AI Ethics and Responsible Innovation</h3>
+                <p>Conference Name: International Conference on Ethics in AI</p>
+                <p>Date: 02-11-2023</p>
+                <p>Link: <a href="https://www.example.com/conference/ai-ethics">Conference Link</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    
+
+    
+
+   
+
+    <section id="Professional Memberships">
+        <h2>PROFESSIONAL MEMBERSHIPS</h2>
+        <p><h3> International Society for Professional Innovation Management</h3></p>
+        <p>Member</p>
+        <img src="https://pbs.twimg.com/profile_images/1156553082404298752/TsgPY6Vv_400x400.jpg" alt="ISPIM Logo" style="width: 100px; height: auto;">
+        <p>December 2022 - Present (1 year)</p>
+
+        <p><H3>EAI - European Alliance for Innovation</H3></p>
+        <p>Member</p>
+        <p>December 2022 - Present (1 year)</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Eai_logo_with_margins.png" alt="EAI Logo" style="width: 100px; height: auto;">
+    </section>
+    <section id="languages">
+        <h2>LANGUAGES</h2>
+        <ul>
+            <li>English (Full Professional)</li>
+            <li>Telugu (Limited Working)</li>
+            <li>Urdu (Native or Bilingual)</li>
+            <li>Hindi (Limited Working)</li>
+        </ul>
+    </section>
+    
+    <section id="resume">
+        <h2>RESUME</h2>
+        <p>You can download my resume by clicking the button </p>
+        <a href="file:///C:/Users/pc/Downloads/Profile%20(2).pdf" download>
+            <button>Download Resume</button>
+             
+        </a>
+    </section>
+    <section id="contact">
+        <h2>CONNECT WITH ME</h2>
+        <p>Email: <a href="mailto:arc13102002@gmail.com">arc13102002@gmail.com</a></p>
+        <p>Phone: 7995212268</p>
+        <p>Address: Limra Colony, Tadigadapa, Vijayawada, Andhra Pradesh, India</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shaik-arifb47317245" target="_blank">linkedin.com/in/shaik-arifb47317245</a></p>
+        <p>Twitter: <a href="https://twitter.com/Applelo96522941" target="_blank">https://twitter.com/Applelo96522941</a></p>
+    </section>
+
+    
+    <footer class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+            <p>Member @ ISPIM & EAI | Computer Science, Leadership<br>Vijayawada, Andhra Pradesh, India</p>
+            <p>References available upon request</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.2/semantic.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script>
+   document.getElementById('download-resume').addEventListener('click', function() {
+            var link = document.createElement('a');
+            link.href = 'file:///C:/Users/pc/Downloads/Profile%20(2).pdf'; // Replace with the actual path to your resume file
+            link.download = 'resume.pdf'; // Set the desired file name for download
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+
+        // Add smooth scrolling functionality for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+
+    
+
+
+        
+         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
 </html>
+
