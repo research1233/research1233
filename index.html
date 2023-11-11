@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwRMU-YMaSSPG_IlEnU4VTWXTIQFoh9X3ZQ&usqp=CAU" type="image/x-icon">
 
     <title>Shaik Arif - Research Scientist</title>
     <style>
@@ -263,9 +263,7 @@ button {
             }
         }
 
-        .project {
-            animation: slideIn 0.5s ease-in-out;
-        }
+        
 
         /* Smooth Transitions */
         .section {
@@ -417,6 +415,174 @@ button:hover {
         margin: 20px auto; /* Adjust margin as needed */
         display: block;
     }
+    
+   
+        /* Neat and Classy Styling for Section Outlines */
+/* Neat and Classy Styling for Section Outlines */
+body {
+    font-family: 'Georgia', serif; /* Use a classic serif font */
+    background-color: #f8f8f8; /* Set a light background color */
+}
+
+section:hover {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border: 2px solid #ddd; /* Subtle border color */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Light box shadow for depth effect */
+    overflow: hidden;
+    border: 6px solid white;
+    
+}
+
+/* Section Title Styles */
+section h2, section h3 {
+    margin: 0;
+    font-size: 2em; /* Slightly larger font size for elegance */
+    color: #333; /* Dark text color */
+}
+
+/* Underline effect for headings */
+section h2::after, section h3::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000102; /* Blue underline color */
+    margin-top: 8px;
+}
+
+/* Remove underline for subheadings */
+section h3::after {
+    display: none;
+}
+/* Normal link styles */
+nav a {
+    color: #333; /* Default text color */
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+}
+
+/* Underline effect on hover */
+nav a:hover {
+    color: #ff8c00; /* Change text color on hover */
+}
+
+nav a:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ff8c00ce; /* Orange underline color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Optional: Add transition for a smooth effect */
+nav a {
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    transition: width 0.3s ease-in-out;
+}
+/* Header Animation */
+header {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.8) rotate(-10deg); /* Initial transform properties */
+    animation: animateHeader 2s ease-in-out forwards;
+}
+
+/* Footer Animation */
+footer {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8) rotate(10deg); /* Initial transform properties */
+    animation: animateFooter 2s ease-in-out forwards;
+}
+
+/* Keyframes for Header Animation */
+@keyframes animateHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.8) rotate(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1) rotate(0);
+    }
+}
+
+/* Keyframes for Footer Animation */
+@keyframes animateFooter {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.8) rotate(10deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1) rotate(0);
+    }
+}
+img {
+            width: 100%; /* Make the image fill the container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below image */
+        }
+        #contact {
+            margin-bottom: 90px; /* Adjust the value as needed */
+        }
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #skills li {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #skills li:hover {
+            transform: scale(1.1); /* Scale up the circle on hover */
+        }
+        #image/x-icon {
+  border-radius: 50%;
+}
+
+        
+        
+        
+        
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
 
 
 
@@ -428,16 +594,15 @@ button:hover {
     </style>
 </head>
 
-<body>
     <header>
         
     
         <h1><center><b>SHAIK ARIF</b></center></h1>
-        <h2><center><b>PASSIONATE RESEARCH SCIENTIST</b></center></h2>
+        <h2><center><b>PASSIONATE  RESEARCH  SCIENTIST</b></center></h2>
 
     </header>
 
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#summary">About</a></li>
@@ -447,17 +612,22 @@ button:hover {
             <li><a href="#projects"> Projects</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#conferences">Scopus Conferences</a></li>
-            <li><a href="#Professional Memberships">professional Memberships</a></li>
+            <li><a href="#Professional Memberships">Professional Memberships</a></li>
             <li><a href="#languages">Languages</a></li>
             <li><a href="#resume">  Resume</a></li>
             <li><a href="#contact">Contact</a></li>
 
         </ul>
+        
     </nav>
+    <section>
+        <img src="https://wallpaperaccess.com/full/2054082.jpg" > 
+    </section>
+    
     <section id="home">
         <img src="data:image/jpeg;base64,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" alt="Profile Image" class="profile-image">
 
-        <h2>Welcome to My Website</h2>
+        <h2><center>WELCOME TO WORLD OF RESEARCH</center></h2>
         <p>Hello, I'm Shaik Arif, a dedicated  Passionate Research Scientist with a deep passion for pushing the boundaries of knowledge and innovation. Armed with a Bachelor of Technology degree in Information Technology from PRASAD V POTLURI SIDDHARTHA INSTITUTE OF TECHNOLOGY, VIJAYAWADA, I am committed to leveraging cutting-edge technologies to solve complex problems and implement creative solutions.</p>
         
         <p>With a strong foundation in Data Analysis, Experimental Design, Statistical Analysis, and expertise in Machine Learning, Deep Learning, and Natural Language Processing (NLP), I am well-equipped to tackle a wide range of research challenges. My journey in the field of technology has been driven by an insatiable curiosity and an unyielding commitment to excellence.</p>
@@ -470,13 +640,13 @@ button:hover {
     </section>
 
     <section id="summary">
-        <h2>ABOUT ME</h2>
+        <h2><center>ABOUT ME</center></h2>
         <p>I am a student member at ISPIM and EAI, two leading professional associations for innovation management and technology, where I collaborate with experts from diverse fields and backgrounds to drive innovation and impact in the professional landscape. With my Bachelor of Technology degree in Information Technology from PRASAD V POTLURI SIDDHARTHA INSTITUTE OF TECHNOLOGY, VIJAYAWADA, I leverage my skills in computer science, programming languages, and leadership to solve complex problems and implement creative solutions.</p>
         <p>I am passionate about staying at the forefront of emerging trends and technologies, especially in the areas of Python and AI, which I have demonstrated through multiple certifications and projects. For example, I completed the AI BUILDER AND POWER APPS course from Coursera and the 'Basics of Python Programming for Absolute Beginners' Bootcamp from Open Weaver, and I earned the Introduction to Programming Using Python badge from HackerRank.</p>
         <p>I have a deep curiosity and a love for pushing boundaries, and I embrace change and a growth mindset. I continually seek opportunities to learn, contribute, and partner with others who share my vision and values. Let's connect and explore how we can innovate together.</p>
     </section>
     <section id="education">
-        <h2>EDUCATION</h2>
+        <h2><center>EDUCATION</center></h2>
         <p>PRASAD V POTLURI SIDDHARTHA INSTITUTE OF TECHNOLOGY</p>
         <p>Bachelor of Technology - BTech, Information Technology · (2021 - 2025)</p>
 
@@ -487,7 +657,7 @@ button:hover {
         <p>· (December 2022)</p>
     </section>
     <section id="skills">
-        <h2>RESEARCH SKILLS</h2>
+        <h2><center>RESEARCH SKILLS</center></h2>
         <ul>
             <li>Data Analysis</li>
             <li>Experimental Design</li>
@@ -504,9 +674,12 @@ button:hover {
 
         </ul>
         
+       
+        
+        
     </section>
     <section id="certifications">
-        <h2>CERTIFICATIONS</h2>
+        <h2><center>CERTIFICATIONS</center></h2>
         <ul>
             <li>'Basics of Python Programming for Absolute Beginners' Bootcamp</li>
             <li>AI BUILDER AND POWER APPS</li>
@@ -515,7 +688,7 @@ button:hover {
         </ul>
     </section>
     <section id="projects">
-        <h2>PROJECTS</h2>
+        <h2><center>PROJECTS</center></h2>
     
         <div class="project">
             <h3>Predictive Modeling of Disease Outbreaks using Machine Learning</h3>
@@ -531,7 +704,7 @@ button:hover {
         <!-- Add more projects as needed -->
     </section>
     <section id="publications">
-        <h2>RESEARCH PUBLICATIONS</h2>
+        <h2><center>RESEARCH PUBLICATIONS</center></h2>
         <div class="publication-list">
             <div class="publication">
                 <h3>Exploring the Intersection of Psychology and Artificial Intelligence</h3>
@@ -549,7 +722,7 @@ button:hover {
         </div>
     </section>
     <section id="conferences">
-        <h2>SCOPUS CONFERENCES ATTENDED</h2>
+        <h2><center>SCOPUS CONFERENCES ATTENDED</center></h2>
         <div class="conference-list">
             <div class="conference">
                 <h3>Unlocking the Potential: Applications of Artificial Intelligence in Healthcare</h3>
@@ -579,19 +752,25 @@ button:hover {
    
 
     <section id="Professional Memberships">
-        <h2>PROFESSIONAL MEMBERSHIPS</h2>
+        <h2><center>PROFESSIONAL MEMBERSHIPS</center></h2>
         <p><h3> International Society for Professional Innovation Management</h3></p>
-        <p>Member</p>
+        <p><b>Student Member</b></p>
+        <div class="description">
+            <p>Join a global community of innovators and professionals driving innovation. Connect with like-minded individuals and stay updated on the latest trends and advancements in the field.Collaborate on groundbreaking projects, attend exclusive events, and contribute to the growth of innovation worldwide.Gain access to cutting-edge research, participate in thought leadership initiatives, and establish yourself as a key player in the dynamic landscape of professional innovation management.</p>
+        </div>
         <img src="https://pbs.twimg.com/profile_images/1156553082404298752/TsgPY6Vv_400x400.jpg" alt="ISPIM Logo" style="width: 100px; height: auto;">
         <p>December 2022 - Present (1 year)</p>
 
         <p><H3>EAI - European Alliance for Innovation</H3></p>
-        <p>Member</p>
+        <p><b>Student Member</b></p>
+        <div class="description">
+            <p>Collaborate with leading experts and researchers in the field of innovation. Gain access to valuable resources and participate in conferences and events that promote knowledge exchange and networking.Collaborate on groundbreaking projects, attend exclusive events, and contribute to the growth of innovation worldwide.Gain access to cutting-edge research, participate in thought leadership initiatives, and establish yourself as a key player in the dynamic landscape of professional innovation management.</p>
+        </div>
         <p>December 2022 - Present (1 year)</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Eai_logo_with_margins.png" alt="EAI Logo" style="width: 100px; height: auto;">
     </section>
     <section id="languages">
-        <h2>LANGUAGES</h2>
+        <h2><center>LANGUAGES</center></h2>
         <ul>
             <li>English (Full Professional)</li>
             <li>Telugu (Limited Working)</li>
@@ -601,7 +780,7 @@ button:hover {
     </section>
     
     <section id="resume">
-        <h2>RESUME</h2>
+        <h2><center>RESUME DOWNLOAD</center></h2>
         <p>You can download my resume by clicking the button </p>
         <a href="file:///C:/Users/pc/Downloads/Profile%20(2).pdf" download>
             <button>Download Resume</button>
@@ -609,9 +788,9 @@ button:hover {
         </a>
     </section>
     <section id="contact">
-        <h2>CONNECT WITH ME</h2>
-        <p>Email: <a href="mailto:arc13102002@gmail.com">arc13102002@gmail.com</a></p>
-        <p>Phone: 7995212268</p>
+        <h2><center>CONNECT WITH ME</center></h2>
+        <p>Email: <a href="mailto:shaikarif.research@gmail.com">shaikarif.research@gmail.com</a></p>
+        <p>Phone: +91 7995212268</p>
         <p>Address: Limra Colony, Tadigadapa, Vijayawada, Andhra Pradesh, India</p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/shaik-arifb47317245" target="_blank">linkedin.com/in/shaik-arifb47317245</a></p>
         <p>Twitter: <a href="https://twitter.com/Applelo96522941" target="_blank">https://twitter.com/Applelo96522941</a></p>
@@ -671,4 +850,3 @@ button:hover {
 </body>
 
 </html>
-
