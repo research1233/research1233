@@ -36,7 +36,7 @@ Hi, I’m **Shaik Arif**, a **B.Tech student in Information Technology** *(2021�
 ### 🔗 My Social Universe  
 - 🌐 **[LinkedIn](https://linkedin.com/in/shaik-arif-b47317245)**  
 - 📸 **[Instagram]()**  
-- 📁 **[Portfolio] (https://research1233.github.io/portfolio/)**  
+- 📁 **[Portfolio](https://research1233.github.io/portfolio/)**  
 
 ---
 
