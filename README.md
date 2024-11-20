@@ -17,7 +17,7 @@ Hi, I’m **Shaik Arif**, a **B.Tech student in Information Technology** *(2021�
 
 ### 🌐 Let's Connect  
 [![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-blue?style=for-the-badge)](https://research1233.github.io/portfolio/)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/shaik-arif-b47317245)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shaik-arif99/)  
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/unique__one__99/)  
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://x.com/Applelo96522941)  
 
@@ -34,7 +34,7 @@ Hi, I’m **Shaik Arif**, a **B.Tech student in Information Technology** *(2021�
 
 
 ### 🔗 My Social Universe  
-- 🌐 **[LinkedIn](https://linkedin.com/in/shaik-arif-b47317245)**  
+- 🌐 **[LinkedIn](https://www.linkedin.com/in/shaik-arif99/)**  
 - 📸 **[Instagram](https://www.instagram.com/unique__one__99/)**  
 - 📁 **[Portfolio](https://research1233.github.io/portfolio/)**  
 
