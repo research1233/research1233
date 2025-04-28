@@ -1,5 +1,6 @@
 # Hey there 👋  
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=36BCF7&width=750&lines=WELCOME+TO+SHAIK+ARIF'S+GITHUB!;Tech+Explorer+%7C+AI+Innovator;ML+Enthusiast+%7C+IoT+Creator;Turning+Ideas+into+Impactful+Code;Collaborate%2C+Learn%2C+Innovate!🌟)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=36BCF7&width=750&lines=WELCOME+TO+SHAIK+ARIF'S+GITHUB!;Tech+Explorer+%7C+AI+Innovator;ML+Enthusiast+%7C+IoT+Creator;Data+Analyst+%7C+Turning+Ideas+into+Impactful+Insights;Collaborate%2C+Learn%2C+Innovate!🌟)
+
 
 
 
