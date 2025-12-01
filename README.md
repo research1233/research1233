@@ -1,6 +1,10 @@
 # Hey there 👋  
 ![Typing SVG]([https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=36BCF7&width=750&lines=WELCOME+TO+PROMPTHUB!;AI+Prompt+Generation+%7C+Intelligent+Prompt+Library;Developers+%7C+Content+Creators+%7C+Teams;Transform+Ideas+into+Optimized+Prompts;Collaborate%2C+Learn%2C+Innovate!🌟](https://lh3.googleusercontent.com/gg-dl/ABS2GSm4SpbrTPt2ifLSnreVA6iS1J4Hwd3NHGasqYGYOjbwj11QnlFhyNyxMCeqoA7m6irsaK1MTiK6tOSCDPAR8Qtz2ebP2IaVvbOYNSh3OSWawB2F63lTCJX8xwInc0RKIVsFJF78H61f0qN_4tSH0mmZ6LFBpAGcS6Kx05y5XEoHOqL0=s1024-rj))
 
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/gg-dl/ABS2GSm4SpbrTPt2ifLSnreVA6iS1J4Hwd3NHGasqYGYOjbwj11QnlFhyNyxMCeqoA7m6irsaK1MTiK6tOSCDPAR8Qtz2ebP2IaVvbOYNSh3OSWawB2F63lTCJX8xwInc0RKIVsFJF78H61f0qN_4tSH0mmZ6LFBpAGcS6Kx05y5XEoHOqL0=s1024-rj" alt="PromptHub Logo/Banner" width="700"/>
+</p>
+
 ---
 
 ### 🚀 About PromptHub
